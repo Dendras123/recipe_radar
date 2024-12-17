@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
@@ -40,5 +41,10 @@ class Ingredient extends Model
     public function user(): HasOne
     {
         return $this->hasOne(User::class);
+    }
+
+    public function scopeExpired(Builder $query): void
+    {
+        $query->where('expires_at', '<', now());
     }
 }
