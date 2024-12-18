@@ -14,7 +14,8 @@ class Ingredient extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'type',
+        'description',
         'quantity',
         'weight',
         'calories',
@@ -41,6 +42,11 @@ class Ingredient extends Model
     public function user(): HasOne
     {
         return $this->hasOne(User::class);
+    }
+
+    public function type(): HasOne
+    {
+        return $this->hasOne(IngredientType::class);
     }
 
     public function scopeExpired(Builder $query): void

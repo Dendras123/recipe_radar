@@ -23,7 +23,8 @@ class StoreIngredientRequest extends FormRequest
     {
         return [
             'ingredients' => 'required|array',
-            'ingredients.*.name' => 'required|string|min:1|max:255',
+            'ingredients.*.type' => 'required|numeric|exists:ingredient_types,id',
+            'ingredients.*.description' => 'nullable|string|min:1|max:255',
             'ingredients.*.quantity' => 'nullable|integer',
             'ingredients.*.weight' => 'nullable|numeric',
             'ingredients.*.calories' => 'nullable|numeric',
