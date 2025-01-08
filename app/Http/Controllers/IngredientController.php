@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Ingredient\Requests\StoreIngredientRequest;
+use App\Http\Requests\Ingredient\StoreIngredientRequest;
 use App\Models\Ingredient;
-use Illuminate\Http\Request;
 
 class IngredientController extends Controller
 {
