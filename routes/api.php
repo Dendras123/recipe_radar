@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\IngredientController;
+use App\Http\Controllers\IngredientTypeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuthController;
@@ -15,6 +17,18 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     Route::post('/logout', [UserAuthController::class, 'logout']);
+
+    Route::controller(IngredientController::class)
+        ->prefix('/ingredients')
+        ->group(function () {
+            Route::get('/', 'index');
+            Route::post('/', 'store');
+            Route::delete('/', 'deleteAll');
+            Route::delete('/expired', 'deleteExpired');
+            Route::delete('/{ingredient}', 'delete');
+        });
+
+    Route::get('/ingredient-types', [IngredientTypeController::class, 'index']);
 });
 
 

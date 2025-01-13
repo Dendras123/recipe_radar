@@ -1,0 +1,469 @@
+index,Ing
+0,só
+1,bors
+2,vaj
+3,fokhagyma
+4,cukor
+5,liszt
+6,hagyma
+7,olívaolaj
+8,víz
+9,őrölt paprika
+10,olíva
+11,tej
+12,tejföl
+13,tojás
+14,csirkemell
+15,sertéshús
+16,marhahús
+17,hal
+18,csirkecomb
+19,rizs
+20,bab
+21,borsó
+22,krumpli
+23,sütőpor
+24,élesztő
+25,kakaópor
+26,vaníliacukor
+27,citromhéj
+28,csokoládé
+29,mazsola
+30,sajt
+31,paradicsom
+32,paprika
+33,uborka
+34,káposzta
+35,karfiol
+36,brokkoli
+37,spenót
+38,sárgarépa
+39,alma
+40,körte
+41,banán
+42,narancs
+43,citrom
+44,lime
+45,méz
+46,mustár
+47,ecet
+48,ketchup
+49,majonéz
+50,csirkeszárny
+51,gyömbér
+52,csili
+53,kókusztej
+54,kókuszolaj
+55,tejszín
+56,cukrászkrém
+57,pisztácia
+58,mandula
+59,dió
+60,mogyoró
+61,szójaszósz
+62,tészta
+63,főzőtejszín
+64,teafilter
+65,kávé
+66,karalábé
+67,zeller
+68,zöldborsó
+69,fűszerpaprika
+70,gyömbérpor
+71,csillagánizs
+72,szegfűszeg
+73,babérlevél
+74,oregánó
+75,bazsalikom
+76,tárkony
+77,petrezselyem
+78,kapor
+79,menta
+80,római kömény
+81,kakukkfű
+82,rozmaring
+83,gyöngyhagyma
+84,chilipehely
+85,parmezán
+86,trappista sajt
+87,mozzarella
+88,brie sajt
+89,camembert
+90,pudingpor
+91,gyümölcslé
+92,dzsem
+93,lekvár
+94,barack
+95,eper
+96,meggy
+97,málna
+98,szeder
+99,áfonya
+100,ribizli
+101,szőlő
+102,ananász
+103,mangó
+104,gránátalma
+105,bazsalikomos szósz
+106,brokkoli ragu
+107,burgonyapüré
+108,sültkrumpli
+109,marcipán
+110,húsleveskocka
+111,tejszínhab
+112,tojásfehérje
+113,tojássárgája
+114,cukormentes édesítő
+115,fahéj
+116,kávébab
+117,borsmenta
+118,étcsokoládé
+119,fehércsokoládé
+120,tejcsokoládé
+121,joghurt
+122,gyümölcsjoghurt
+123,natúr joghurt
+124,müzli
+125,zabpehely
+126,kókuszreszelék
+127,vanília
+128,étkezési zselatin
+129,szódabikarbóna
+130,citromlé
+131,narancslé
+132,almabor
+133,szilva
+134,körtekompót
+135,sült alma
+136,sült banán
+137,egres
+138,vörösáfonya
+139,spárga
+140,póréhagyma
+141,zöldbab
+142,fejtett bab
+143,lencse
+144,csicsóka
+145,tök
+146,sütőtök
+147,cukkinipüré
+148,cukkini
+149,padlizsán
+150,gomba
+151,erdei gomba
+152,tejpor
+153,növényi tej
+154,laktózmentes tej
+155,gluténmentes liszt
+156,só
+157,bors
+158,vaj
+159,fokhagyma
+160,cukor
+161,liszt
+162,hagyma
+163,olívaolaj
+164,víz
+165,őrölt paprika
+166,olíva
+167,tej
+168,tejföl
+169,tojás
+170,csirkemell
+171,sertéshús
+172,marhahús
+173,hal
+174,csirkecomb
+175,rizs
+176,bab
+177,borsó
+178,krumpli
+179,sütőpor
+180,élesztő
+181,kakaópor
+182,vaníliacukor
+183,citromhéj
+184,csokoládé
+185,mazsola
+186,sajt
+187,paradicsom
+188,paprika
+189,uborka
+190,káposzta
+191,karfiol
+192,brokkoli
+193,spenót
+194,sárgarépa
+195,alma
+196,körte
+197,banán
+198,narancs
+199,citrom
+200,lime
+201,méz
+202,mustár
+203,ecet
+204,ketchup
+205,majonéz
+206,csirkeszárny
+207,gyömbér
+208,csili
+209,kókusztej
+210,kókuszolaj
+211,tejszín
+212,cukrászkrém
+213,pisztácia
+214,mandula
+215,dió
+216,mogyoró
+217,szójaszósz
+218,tészta
+219,főzőtejszín
+220,teafilter
+221,kávé
+222,karalábé
+223,zeller
+224,zöldborsó
+225,fűszerpaprika
+226,gyömbérpor
+227,csillagánizs
+228,szegfűszeg
+229,babérlevél
+230,oregánó
+231,bazsalikom
+232,tárkony
+233,petrezselyem
+234,kapor
+235,menta
+236,római kömény
+237,kakukkfű
+238,rozmaring
+239,gyöngyhagyma
+240,chilipehely
+241,parmezán
+242,trappista sajt
+243,mozzarella
+244,brie sajt
+245,camembert
+246,pudingpor
+247,gyümölcslé
+248,dzsem
+249,lekvár
+250,barack
+251,eper
+252,meggy
+253,málna
+254,szeder
+255,áfonya
+256,ribizli
+257,szőlő
+258,ananász
+259,mangó
+260,gránátalma
+261,bazsalikomos szósz
+262,brokkoli ragu
+263,burgonyapüré
+264,sültkrumpli
+265,marcipán
+266,húsleveskocka
+267,tejszínhab
+268,tojásfehérje
+269,tojássárgája
+270,cukormentes édesítő
+271,fahéj
+272,kávébab
+273,borsmenta
+274,étcsokoládé
+275,fehércsokoládé
+276,tejcsokoládé
+277,joghurt
+278,gyümölcsjoghurt
+279,natúr joghurt
+280,müzli
+281,zabpehely
+282,kókuszreszelék
+283,vanília
+284,étkezési zselatin
+285,szódabikarbóna
+286,citromlé
+287,narancslé
+288,almabor
+289,szilva
+290,körtekompót
+291,sült alma
+292,sült banán
+293,egres
+294,vörösáfonya
+295,spárga
+296,póréhagyma
+297,zöldbab
+298,fejtett bab
+299,lencse
+300,csicsóka
+301,tök
+302,sütőtök
+303,cukkinipüré
+304,cukkini
+305,padlizsán
+306,gomba
+307,erdei gomba
+308,tejpor
+309,növényi tej
+310,laktózmentes tej
+311,gluténmentes liszt
+312,só
+313,bors
+314,vaj
+315,fokhagyma
+316,cukor
+317,liszt
+318,hagyma
+319,olívaolaj
+320,víz
+321,őrölt paprika
+322,olíva
+323,tej
+324,tejföl
+325,tojás
+326,csirkemell
+327,sertéshús
+328,marhahús
+329,hal
+330,csirkecomb
+331,rizs
+332,bab
+333,borsó
+334,krumpli
+335,sütőpor
+336,élesztő
+337,kakaópor
+338,vaníliacukor
+339,citromhéj
+340,csokoládé
+341,mazsola
+342,sajt
+343,paradicsom
+344,paprika
+345,uborka
+346,káposzta
+347,karfiol
+348,brokkoli
+349,spenót
+350,sárgarépa
+351,alma
+352,körte
+353,banán
+354,narancs
+355,citrom
+356,lime
+357,méz
+358,mustár
+359,ecet
+360,ketchup
+361,majonéz
+362,csirkeszárny
+363,gyömbér
+364,csili
+365,kókusztej
+366,kókuszolaj
+367,tejszín
+368,cukrászkrém
+369,pisztácia
+370,mandula
+371,dió
+372,mogyoró
+373,szójaszósz
+374,tészta
+375,főzőtejszín
+376,teafilter
+377,kávé
+378,karalábé
+379,zeller
+380,zöldborsó
+381,fűszerpaprika
+382,gyömbérpor
+383,csillagánizs
+384,szegfűszeg
+385,babérlevél
+386,oregánó
+387,bazsalikom
+388,tárkony
+389,petrezselyem
+390,kapor
+391,menta
+392,római kömény
+393,kakukkfű
+394,rozmaring
+395,gyöngyhagyma
+396,chilipehely
+397,parmezán
+398,trappista sajt
+399,mozzarella
+400,brie sajt
+401,camembert
+402,pudingpor
+403,gyümölcslé
+404,dzsem
+405,lekvár
+406,barack
+407,eper
+408,meggy
+409,málna
+410,szeder
+411,áfonya
+412,ribizli
+413,szőlő
+414,ananász
+415,mangó
+416,gránátalma
+417,bazsalikomos szósz
+418,brokkoli ragu
+419,burgonyapüré
+420,sültkrumpli
+421,marcipán
+422,húsleveskocka
+423,tejszínhab
+424,tojásfehérje
+425,tojássárgája
+426,cukormentes édesítő
+427,fahéj
+428,kávébab
+429,borsmenta
+430,étcsokoládé
+431,fehércsokoládé
+432,tejcsokoládé
+433,joghurt
+434,gyümölcsjoghurt
+435,natúr joghurt
+436,müzli
+437,zabpehely
+438,kókuszreszelék
+439,vanília
+440,étkezési zselatin
+441,szódabikarbóna
+442,citromlé
+443,narancslé
+444,almabor
+445,szilva
+446,körtekompót
+447,sült alma
+448,sült banán
+449,egres
+450,vörösáfonya
+451,spárga
+452,póréhagyma
+453,zöldbab
+454,fejtett bab
+455,lencse
+456,csicsóka
+457,tök
+458,sütőtök
+459,cukkinipüré
+460,cukkini
+461,padlizsán
+462,gomba
+463,erdei gomba
+464,tejpor
+465,növényi tej
+466,laktózmentes tej
+467,gluténmentes liszt
