@@ -24,6 +24,8 @@ class IngredientController extends Controller
         foreach ($ingredients as $ingredient) {
             $user->ingredients()->create($ingredient);
         }
+
+        return response()->json('Created successfully!', 201);
     }
 
     public function delete(Ingredient $ingredient)

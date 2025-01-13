@@ -24,8 +24,8 @@ Route::middleware('auth:sanctum')->group(function () {
             Route::get('/', 'index');
             Route::post('/', 'store');
             Route::delete('/', 'deleteAll');
-            Route::delete('/{ingredient}', 'delete');
             Route::delete('/expired', 'deleteExpired');
+            Route::delete('/{ingredient}', 'delete');
         });
 
     Route::get('/ingredient-types', [IngredientTypeController::class, 'index']);

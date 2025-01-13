@@ -5,9 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Ingredient extends Model
 {
+    /** @use HasFactory<\Database\Factories\IngredientFactory> */
+    use HasFactory;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -16,6 +20,7 @@ class Ingredient extends Model
     protected $fillable = [
         'ingredient_type_id',
         'description',
+        'quantity_type',
         'quantity',
         'weight',
         'calories',
