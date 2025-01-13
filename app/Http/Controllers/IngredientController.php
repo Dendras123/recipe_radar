@@ -17,10 +17,13 @@ class IngredientController extends Controller
     public function store(StoreIngredientRequest $request)
     {
         $validated = $request->validated();
+        $ingredients = $validated['ingredients'];
 
         $user = auth()->user();
 
-        $user->ingredients()->create($validated);
+        foreach ($ingredients as $ingredient) {
+            $user->ingredients()->create($ingredient);
+        }
     }
 
     public function delete(Ingredient $ingredient)

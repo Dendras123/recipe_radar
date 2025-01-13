@@ -17,7 +17,16 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 
     Route::post('/logout', [UserAuthController::class, 'logout']);
-    Route::post('/ingredients', [IngredientController::class, 'store']);
+
+    Route::controller(IngredientController::class)
+        ->prefix('/ingredients')
+        ->group(function () {
+            Route::get('/', 'index');
+            Route::post('/', 'store');
+            Route::delete('/', 'deleteAll');
+            Route::delete('/{ingredient}', 'delete');
+            Route::delete('/expired', 'deleteExpired');
+        });
 
     Route::get('/ingredient-types', [IngredientTypeController::class, 'index']);
 });

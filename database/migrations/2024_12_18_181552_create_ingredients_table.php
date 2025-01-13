@@ -20,7 +20,8 @@ return new class extends Migration {
 
             $table->string('description')->nullable();
             // amount
-            $table->integer('quantity')->nullable();
+            $table->string('quantity_type')->nullable();
+            $table->float('quantity')->nullable();
             $table->float('weight')->nullable();
             // calories and macros
             $table->float('calories')->nullable();
