@@ -52,4 +52,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Ingredient::class);
     }
+
+    public function recepies(): HasMany
+    {
+        return $this->hasMany(Recepie::class);
+    }
 }

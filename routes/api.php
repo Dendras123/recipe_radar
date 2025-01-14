@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\IngredientController;
 use App\Http\Controllers\IngredientTypeController;
+use App\Http\Controllers\RecepieController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuthController;
@@ -29,6 +30,13 @@ Route::middleware('auth:sanctum')->group(function () {
         });
 
     Route::get('/ingredient-types', [IngredientTypeController::class, 'index']);
+
+    Route::controller(RecepieController::class)
+        ->prefix('/recepies')
+        ->group(function () {
+            Route::get('/', 'index');
+            Route::post('/', 'store');
+        });
 });
 
 
