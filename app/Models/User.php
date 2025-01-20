@@ -3,6 +3,7 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Database\Seeders\TechUserSeeder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -56,5 +57,10 @@ class User extends Authenticatable
     public function recepies(): HasMany
     {
         return $this->hasMany(Recepie::class);
+    }
+
+    public static function recipeTechUser(): User
+    {
+        return self::where('email', TechUserSeeder::RECIPE_TECH_USER)->firstOrFail();
     }
 }

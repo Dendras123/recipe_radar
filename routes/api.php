@@ -3,9 +3,12 @@
 use App\Http\Controllers\IngredientController;
 use App\Http\Controllers\IngredientTypeController;
 use App\Http\Controllers\RecepieController;
+use App\Http\Controllers\RecipeScraperController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuthController;
+
+Route::get('/recipes/scraper', [RecipeScraperController::class, '__invoke']);
 
 // not logged in routes
 Route::post('/register', [UserAuthController::class, 'register']);
@@ -38,5 +41,3 @@ Route::middleware('auth:sanctum')->group(function () {
             Route::post('/', 'store');
         });
 });
-
-
